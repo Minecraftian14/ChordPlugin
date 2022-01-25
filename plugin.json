@@ -1,0 +1,41 @@
+{
+  "slug": "ChordPlugin",
+  "name": "ChordPlugin",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "MCXIV",
+  "author": "Minecraftian14",
+  "authorEmail": "mcxiv14@gmail.com",
+  "authorUrl": "https://github.com/Minecraftian14",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Chords",
+      "name": "Chords",
+      "description": "Chords",
+      "tags": [
+        "Chords Chord"
+      ]
+    },
+    {
+      "slug": "Inputs",
+      "name": "Inputs",
+      "description": "Inputs",
+      "tags": [
+        "input inputs"
+      ]
+    },
+    {
+      "slug": "Amp",
+      "name": "Amp",
+      "description": "Scalar or Multiplicative Amplifier",
+      "tags": [
+        "Amplifier Math"
+      ]
+    }
+  ]
+}

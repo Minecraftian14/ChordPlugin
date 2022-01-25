@@ -1,0 +1,10 @@
+/.idea
+/cmake-build-debug
+/CMakeLists.txt
+
+/build
+/dist
+/plugin.so
+/plugin.dylib
+/plugin.dll
+.DS_Store

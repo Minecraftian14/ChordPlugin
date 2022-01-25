@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.24mm"
+   height="128.5mm"
+   viewBox="0 0 15.24 128.5"
+   version="1.1"
+   id="svg46"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Chords.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5536476"
+     inkscape:cx="-81.421295"
+     inkscape:cy="242.97659"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs43">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3834">
+      <stop
+         style="stop-color:#2a0049;stop-opacity:1"
+         offset="0"
+         id="stop3830" />
+      <stop
+         style="stop-color:#57379e;stop-opacity:1"
+         offset="1"
+         id="stop3832" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3788"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#2a7fff;stop-opacity:1;"
+         offset="0"
+         id="stop3786" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3834"
+       id="linearGradient3836"
+       x1="0"
+       y1="0"
+       x2="15.24"
+       y2="128.5"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient3836);stroke-width:0.12;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect72"
+       width="15.24"
+       height="128.5"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#350156;fill-opacity:0;stroke:#56359c;stroke-width:0.301668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4244"
+       width="11.24"
+       height="54.831539"
+       x="2"
+       y="5.7605309"
+       ry="1.0551325" />
+    <rect
+       style="fill:#3c166b;fill-opacity:1;stroke:none;stroke-width:0.1045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4244-2"
+       width="11.24"
+       height="54.831539"
+       x="2"
+       y="62.649235"
+       ry="1.0551325" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.57587px;line-height:1.25;font-family:sans-serif;fill:#838ec2;fill-opacity:1;stroke:none;stroke-width:0.0893969"
+       x="2.095823"
+       y="115.61027"
+       id="text11082"
+       transform="scale(0.95558416,1.0464803)"><tspan
+         sodipodi:role="line"
+         id="tspan11080"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BankGothic Lt BT';-inkscape-font-specification:'BankGothic Lt BT';fill:#838ec2;fill-opacity:1;stroke-width:0.0893969"
+         x="2.095823"
+         y="115.61027">Mc14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.57587px;line-height:1.25;font-family:sans-serif;fill:#6e6a9b;fill-opacity:1;stroke:none;stroke-width:0.0893969"
+       x="0.53710759"
+       y="117.80737"
+       id="text14224"
+       transform="scale(0.95558416,1.0464803)"><tspan
+         sodipodi:role="line"
+         id="tspan14222"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BankGothic Lt BT';-inkscape-font-specification:'BankGothic Lt BT';fill:#6e6a9b;fill-opacity:1;stroke-width:0.0893969"
+         x="0.53710759"
+         y="117.80737">Chords</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="components"
+     style="display:none">
+    <circle
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="in_SourceOctave"
+       cx="7.6421304"
+       cy="11.57726"
+       r="4.1243501"
+       inkscape:label="in_SourceOctave" />
+    <circle
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="in_SourceScale"
+       cx="7.6421304"
+       cy="30.097187"
+       r="4.1243501"
+       inkscape:label="in_SourceScale" />
+    <circle
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="in_SourceChord"
+       cx="7.6421304"
+       cy="47.893345"
+       r="4.1243501"
+       inkscape:label="in_SourceChord" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="out_FrequencyOne"
+       cx="7.578269"
+       cy="68.25"
+       r="4.1243501"
+       inkscape:label="out_FrequencyOne" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="out_FrequencyTwo"
+       cx="7.578269"
+       cy="86.769928"
+       r="4.1243501"
+       inkscape:label="out_FrequencyTwo" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="out_FrequencyThr"
+       cx="7.578269"
+       cy="104.56609"
+       r="4.1243501"
+       inkscape:label="out_FrequencyThr" />
+  </g>
+</svg>
