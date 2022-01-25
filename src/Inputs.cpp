@@ -25,10 +25,10 @@ struct Inputs : Module {
 
     Inputs() {
         config(PARAMS_LEN, INPUTS_LEN, OUTPUTS_LEN, LIGHTS_LEN);
-        configParam(IN_CH_ONE_PARAM, 0.f, 1.f, 0.f, "");
-        configParam(IN_CH_TWO_PARAM, 0.f, 1.f, 0.f, "");
-        configParam(IN_CH_THR_PARAM, 0.f, 1.f, 0.f, "");
-        configParam(IN_CH_FOU_PARAM, 0.f, 1.f, 0.f, "");
+        configParam(IN_CH_ONE_PARAM, -1.f, 1.f, 0.f, "");
+        configParam(IN_CH_TWO_PARAM, -2.f, 2.f, 0.f, "");
+        configParam(IN_CH_THR_PARAM, -10.f, 10.f, 0.f, "");
+        configParam(IN_CH_FOU_PARAM, -12.f, 12.f, 0.f, "");
         configOutput(OUT_CH_ONE_OUTPUT, "");
         configOutput(OUT_CH_TWO_OUTPUT, "");
         configOutput(OUT_CH_THR_OUTPUT, "");
@@ -36,14 +36,10 @@ struct Inputs : Module {
     }
 
     void process(const ProcessArgs &args) override {
-        outputs[OUT_CH_ONE_OUTPUT].setVoltage(spread(params[IN_CH_ONE_PARAM].getValue()));
-        outputs[OUT_CH_TWO_OUTPUT].setVoltage(spread(params[IN_CH_TWO_PARAM].getValue()) * 2);
-        outputs[OUT_CH_THR_OUTPUT].setVoltage(spread(params[IN_CH_THR_PARAM].getValue()) * 10);
-        outputs[OUT_CH_FOU_OUTPUT].setVoltage(spread(params[IN_CH_FOU_PARAM].getValue()) * 12);
-    }
-
-    float spread(float value) {
-        return value * 2.f - 1.f;
+        outputs[OUT_CH_ONE_OUTPUT].setVoltage(params[IN_CH_ONE_PARAM].getValue());
+        outputs[OUT_CH_TWO_OUTPUT].setVoltage(params[IN_CH_TWO_PARAM].getValue());
+        outputs[OUT_CH_THR_OUTPUT].setVoltage(params[IN_CH_THR_PARAM].getValue());
+        outputs[OUT_CH_FOU_OUTPUT].setVoltage(params[IN_CH_FOU_PARAM].getValue());
     }
 
 };
@@ -72,4 +68,4 @@ struct InputsWidget : ModuleWidget {
 };
 
 
-Model *modelInputs = createModel<Inputs, InputsWidget>("Inputs");
+Model *modelInputs = createModel<Inputs, InputsWidget>("MCXIVInputs");

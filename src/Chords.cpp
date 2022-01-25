@@ -40,12 +40,12 @@ struct Chords : Module {
 
     Chords() {
         config(PARAMS_LEN, INPUTS_LEN, OUTPUTS_LEN, LIGHTS_LEN);
-        configInput(IN_SOURCEOCTAVE_INPUT, "");
-        configInput(IN_SOURCESCALE_INPUT, "");
-        configInput(IN_SOURCECHORD_INPUT, "");
-        configOutput(OUT_FREQUENCYONE_OUTPUT, "");
-        configOutput(OUT_FREQUENCYTWO_OUTPUT, "");
-        configOutput(OUT_FREQUENCYTHR_OUTPUT, "");
+        configInput(IN_SOURCEOCTAVE_INPUT, "Octave");
+        configInput(IN_SOURCESCALE_INPUT, "Scale");
+        configInput(IN_SOURCECHORD_INPUT, "Chord");
+        configOutput(OUT_FREQUENCYONE_OUTPUT, "First");
+        configOutput(OUT_FREQUENCYTWO_OUTPUT, "Third");
+        configOutput(OUT_FREQUENCYTHR_OUTPUT, "Fifth");
     }
 
     void process(const ProcessArgs &args) override {
@@ -68,7 +68,7 @@ struct Chords : Module {
         outputs[OUT_FREQUENCYTHR_OUTPUT].setVoltage(pitch + (float) third / 12.f);
     }
 
-    int flatCast(float val) {
+    static int flatCast(float val) {
         int expansion = (int) (2.f * val);
         if (expansion % 2 == 0) return (int) val;
         return 1 + (int) val;
@@ -99,4 +99,4 @@ struct ChordsWidget : ModuleWidget {
 };
 
 
-Model *modelChords = createModel<Chords, ChordsWidget>("Chords");
+Model *modelChords = createModel<Chords, ChordsWidget>("MCXIVChords");

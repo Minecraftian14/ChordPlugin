@@ -1,7 +1,7 @@
 {
-  "slug": "ChordPlugin",
+  "slug": "MCXIVChordPlugin",
   "name": "ChordPlugin",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "brand": "MCXIV",
   "author": "Minecraftian14",
@@ -14,7 +14,7 @@
   "changelogUrl": "",
   "modules": [
     {
-      "slug": "Chords",
+      "slug": "MCXIVChords",
       "name": "Chords",
       "description": "Chords",
       "tags": [
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "slug": "Inputs",
+      "slug": "MCXIVInputs",
       "name": "Inputs",
       "description": "Inputs",
       "tags": [
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "slug": "Amp",
+      "slug": "MCXIVAmp",
       "name": "Amp",
       "description": "Scalar or Multiplicative Amplifier",
       "tags": [
