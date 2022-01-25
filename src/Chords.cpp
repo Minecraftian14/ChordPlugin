@@ -63,22 +63,6 @@ struct Chords : Module {
         int secon = mapSemiNoteToFullNote[(chord + 2) % 7] + ((chord + 2) > 6 ? 12 : 0);
         int third = mapSemiNoteToFullNote[(chord + 4) % 7] + ((chord + 4) > 6 ? 12 : 0);
 
-//        float freq_first = dsp::FREQ_C4 * std::pow(2.f, (float) (scale + first) / 12.f);
-//        float freq_secon = dsp::FREQ_C4 * std::pow(2.f, (float) (scale + secon) / 12.f);
-//        float freq_third = dsp::FREQ_C4 * std::pow(2.f, (float) (scale + third) / 12.f);
-
-//        phase_first += freq_first * args.sampleTime;
-//        phase_secon += freq_secon * args.sampleTime;
-//        phase_third += freq_third * args.sampleTime;
-
-//        if (phase_first >= 0.5f) phase_first -= 1.f;
-//        if (phase_secon >= 0.5f) phase_secon -= 1.f;
-//        if (phase_third >= 0.5f) phase_third -= 1.f;
-
-//        float sine_first = std::sin(2.f * M_PI * phase_first);
-//        float sine_secon = std::sin(2.f * M_PI * phase_secon);
-//        float sine_third = std::sin(2.f * M_PI * phase_third);
-
         outputs[OUT_FREQUENCYONE_OUTPUT].setVoltage(pitch + (float) first / 12.f);
         outputs[OUT_FREQUENCYTWO_OUTPUT].setVoltage(pitch + (float) secon / 12.f);
         outputs[OUT_FREQUENCYTHR_OUTPUT].setVoltage(pitch + (float) third / 12.f);
