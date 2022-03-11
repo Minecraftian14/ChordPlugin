@@ -2,6 +2,8 @@
 ### Generate Chords xD
 
 https://user-images.githubusercontent.com/52451860/151708933-41446053-1ae3-469e-935c-08a96abf55cd.mp4
+
+
 [![](https://img.shields.io/discord/872811194170347520?color=%237289da&logoColor=%23424549)](https://discord.gg/hZnHFGvU6W)
 
 ## Inputs
